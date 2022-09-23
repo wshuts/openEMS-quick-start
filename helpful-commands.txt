@@ -1,0 +1,18 @@
+From Terminal:
+
+invoke the openEMS solver:
+openEMS
+
+From Octave Interface:
+
+CSXCAD interface check:
+InitCSX
+
+openEMS interface check:
+InitFDTD('NrTS', 0, 'EndCriteria', 0)
+
+start the simulator:
+RunOpenEMS( '.', 'nonexistant.xml', '' )
+
+Start AppCSXCAD:
+CSXGeomPlot('nonexistant.xml')
