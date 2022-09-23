@@ -1,3 +1,4 @@
 C:/tools/openEMS/
-C:/Program Files/GNU Octave/Octave-7.2.0
-C:/Program Files/GNU Octave/Octave-7.2.0/mingw64/share/octave
+C:/Program Files/GNU Octave/Octave-7.2.0/
+C:/Program Files/GNU Octave/Octave-7.2.0/mingw64/share/octave/
+C:/Program Files/ParaView 5.11.0/
