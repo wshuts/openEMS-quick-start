@@ -16,7 +16,7 @@ clear
 clc
 
 % init and define FDTD parameter
-FDTD = InitFDTD(100,0,'OverSampling',50);
+FDTD = InitFDTD('NrTS', 100, 'EndCriteria', 0,'OverSampling',50);
 FDTD = SetSinusExcite(FDTD,10e6);
 BC = {'PMC' 'PMC' 'PEC' 'PEC' 'MUR' 'MUR'};
 FDTD = SetBoundaryCond(FDTD,BC);
